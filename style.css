@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+font-size: 30px;
+}
+
+h3{
+font-size: 60px;
+}
+
+h2{
+font-size: 40px;
+}
+
+body{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 16px;
+}
+
+a{
+color:white;
+text-decoration: none;
+
+}
+
+a:hover {
+  color: #f4a261;
+}
+
+.main{
+background-color:#4C2B20;
+width:70%;
+margin: 0 auto;
+}
+
+nav{
+  border: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position:sticky;
+  top:0;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #f4a261;
+}
+
+img{
+width: 100%
+}
+
+.parts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.part {
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  
+}
+
+.partIMG {
+  width: 100%;
+}
+
+.partIMG:hover {
+  transform: scale(1.05);
+}
